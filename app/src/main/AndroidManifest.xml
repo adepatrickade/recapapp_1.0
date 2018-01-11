@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hp.madose">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/employe"
+        android:label="RecapApp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.hp.madose.Authentification"
+            android:label="RecapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Acceuil"
+            android:label="Accueil"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Fournisseur"
+            android:label="Fournisseur">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Besoin"
+            android:label="Besoins">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Categorie"
+            android:label="Catégories">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Employe"
+            android:label="Employé">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Departement"
+            android:label="Departement">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Entrees"
+            android:label="@string/title_activity_entrees"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hp.madose.Sorties"
+            android:label="@string/title_activity_sorties"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+
+        <activity
+            android:name="com.example.hp.madose.Affichage"
+            android:label="Affichage" />
+        <activity
+            android:name="com.example.hp.madose.Add"
+            android:label="Approvisionnement" />
+        <activity
+            android:name="com.example.hp.madose.Demande"
+            android:label="Demande" />
+        <activity
+            android:name="com.example.hp.madose.BringOut"
+            android:label="Sortie" />
+        <activity android:name="com.example.hp.madose.Variation" />
+        <activity android:name="com.example.hp.madose.CoutTotalBesoin"></activity>
+
+    </application>
+
+</manifest>

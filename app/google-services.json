@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "86504376626",
+    "firebase_url": "https://madose-e2292.firebaseio.com",
+    "project_id": "madose-e2292",
+    "storage_bucket": "madose-e2292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86504376626:android:3f8db17be445cef1",
+        "android_client_info": {
+          "package_name": "com.example.hp.madose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86504376626-i14eg19g1673idgpg1r03igns00gu50n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlXS0xSdg4Z6PmU0RAcu9NEY103AQ2k54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
